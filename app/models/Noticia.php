@@ -11,7 +11,7 @@ class Noticia extends Model
     private $titulo;
     private $texto;
     private $data_ultima_atualizacao;
-    private $registerDate;
+    private $data_cadastro;
 
     public function initialize()
     {
